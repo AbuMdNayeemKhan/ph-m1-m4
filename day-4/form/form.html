@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section>
+        <h2>Please fill up the form</h2>
+        <form action="">
+            <label for="name">Full name: <input type="text" id="name" placeholder="Full name"></label>
+            <label for="email">Email: <input type="email" id="email" placeholder="Enter Email"></label>
+            <label for="number">Number: <input type="text" id="number" placeholder="Number"></label>
+            <fieldset>
+                <legend>Types of pitha</legend>
+                <label for="chitoi">
+                    <input type="radio" name="pitha" id="chitoi"> Chitoi
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa"> Vapa
+                </label>
+                <label for="ruti">
+                    <input type="radio" name="pitha" id="ruti"> Ruti
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>vorta</legend>
+                <label for="sutki">
+                    <input type="checkbox" name="vorta" id="sutki"> Sutki
+                </label>
+                <label for="morich">
+                    <input type="checkbox" name="vorta" id="morich"> morich
+                </label>
+                <label for="sorisa">
+                    <input type="checkbox" name="vorta" id="sorisa"> sorisa
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <textarea name="" id="" cols="30" rows="4"></textarea>
+            </fieldset>
+            <input type="submit">
+             <input type="reset">
+        </form>
+    </section>
+</body>
+</html>
